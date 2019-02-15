@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<title>DEBS 2009 - The 3nd International Conference on Distributed Event-Based Systems</title>						
+		<link rel="StyleSheet" href="style/DEBS09.css" type="text/css" media="screen"/>
+		<link rel="StyleSheet" href="style/DEBS09-print.css" type="text/css" media="print"/>
+    </head>
+	<body>
+		<?include ("nav-menu2.inc");?>
+		<?include ("nav-header.inc");?>
+
+<div class="cfphead">
+	<h6>Keynote Speakers</h6>
+</div>
+<h6>Lessons for the future of event processing</h6>
+<em>Dr. John Bates</em>, General Manager, Apama<br>
+<strong>July 7th, 2009</strong>
+<p class="tutorial">In this presentation the speaker will outline lessons learned in the event processing industry, the current state of the art and where the industry is going in the next 5 years and beyond. This presentation will include discussion of what did we get right in our academic designs and what requirements we forgot that real business applications need. The presentation will also address the question of whether the full vision of event processing created in academia been realized or is it to come? And finally the killer applications of event processing &ndash; past, present and future will be discussed along with a discussion of who are the main beneficiaries of event processing.</p>
+<p class="bio"><strong>Dr. John Bates</strong> is General Manager for Progress Software's Apama Division. In this role, John is responsible for the management of sales, marketing, products and consulting services.
+Prior to joining Progress, John was the Co-Founder, President and Chief Technology Officer of Apama, the pioneering Complex Event Processing software vendor acquired by Progress in April 2005. In this role, John led Apama's technology and go-to-market strategy and was co-inventor of the patented technology that is now a key part of the Progress Apama platform. Prior to Apama, John was a tenured academic at Cambridge University in the UK where he led research into distributed computing systems. 
+John is a frequent author and speaker in the areas of financial services technology, with a specific focus on trading, risk and market surveillance, as well as mobile and distributed computing systems, with a specific focus on Event Processing. In November 2008 John was named one of the 30 most influential people in the financial services industry by "Institutional Investor" magazine for his pioneering Event Processing work in financial services.
+</p>
+
+<h6>Event-Based Applications and Enabling Technologies</h6>	
+<em>Prof. Alex Buchmann</em>, Department of Computer Science, Darmstadt University of Technology<br>		
+<strong>July 8th, 2009</strong>
+<p class="tutorial">Event processing has become the paradigm of choice in many monitoring and reactive applications. However, the understanding of events, their composition and level of abstraction, the style of processing and the quality of service requirements vary drastically across application domains. In this talk I will survey a wide range of applications identifying their main features and requirements and extract open research issues.</p>
+<p class="bio"><strong>Alejandro Buchmann</strong> is Professor in the Department of Computer Science, Technische Universit&auml;t Darmstadt, where he heads the Databases and Distributed Systems Group. He studied chemical engineering at the Universidad Nacional Aut&oacute;noma de M&eacute;xico and received his MS (1977) and PhD (1980) from the University of Texas at Austin. From 1980 to 1986 he was an Assistant/Associate Professor at the Institute for Applied Mathematics and Systems IIMAS/UNAM in Mexico, doing research on databases for CAD, geographic information systems, and object-oriented databases. At Computer Corporation of America (later Xerox Advanced Information Systems) in Cambridge, Mass., he worked in the areas of active databases and real-time databases, and at GTE Laboratories, Waltham, in the areas of distributed object systems and the integration of heterogeneous legacy systems. 1991 he returned to academia and joined T.U. Darmstadt. <br><br>
+Buchmann's current research interests are at the intersection of middleware, databases, event-based distributed systems, ubiquitous computing, and very large distributed systems (P2P, WSN). Much of the current research is concerned with guaranteeing quality of service and reliability properties in these systems, for example, scalability, performance, transactional behaviour, consistency, and end-to-end security. Many research projects imply collaboration with industry and cover a broad spectrum of application domains. A concrete area of research in collaboration with industry is performance modelling and capacity planning of large software systems, in particular based on J2EE application servers and messaging middleware where Buchmann's group participates in the SPECjAppServer2004, JMS2007 and subsequent benchmarking efforts. 
+Alejandro is active in the database, middleware and event processing communities serving regularly on program committees and editorial boards and has been program (co)chair for VLDB96, SIGMOD98 Industrial track, ICDE 2001, DEBS 2008, as well as smaller conferences and workshops. He has been general chair for ICDE 2008, Ambient Intelligence 07, and SIPEW08 as well as tutorial and local arrangements chair for Middleware 2001 and ECOOP. Further information can be found at <a href="http://www.dvs.tu-darmstadt.de/" target="_blank">http://www.dvs.tu-darmstadt.de/</a></p>
+
+<h6>Event-based Systems: Opportunities and Challenges at Exascale</h6>		
+<em>Prof. Karsten Schwan</em>, College of Computing, Georgia Institute of Technology<br>
+<strong>July 9th, 2009</strong>
+<p class="tutorial">Event-based systems are used for a wide variety of applications, in diverse environments, and with performance demands that vary from those required for occasional and infrequent notification concerning interesting events to the continuous streaming and processing of large data volumes. Building on such breadth, an exciting new domain for event-based technologies is in managing large-scale datacenters, where event infrastructures can be used to monitor datacenter and application behaviors and to control both to maintain system health and satisfy applications' service level agreements. While the use of event-based systems for monitoring is not new, new opportunities for research are derived from the fact that the wide-spread virtualization of these facilities makes it possible to entirely `hide' management functionality `inside' the underlying system infrastructure. Such hiding can cleanly isolate management from applications and middleware and it can present to applications end systems that have entirely new capabilities, such as location transparency, context sensitivity, and the ability to hide underlying system differences. At the same time, challenges are presented (1) by the need to present to guest systems uniform capabilities and behaviors of underlying systems, (2) the requirement to scale to many thousands of cores and machines, and (3) the ability to deal with unpredictable system and application behaviors.</p>
+<p class="tutorial">
+	This talk exposes some of these challenges, including those experienced when operating an event infrastructure used to transport IO events at the scale of hundred+ thousand nodes. Specifically, when transport output data from a large-scale simulation running on the ORNL Cray Jaguar petascale machine, a surprising new issue seen in experimentation at scale is the potential for strong perturbation of running applications from inappropriate speeds at which IO is performed. This requires the IO system's event transport to be explicitly scheduled to constrain resource competition, in addition to dynamically setting and changing the topologies of event delivery. Other examples shown are drawn from experimentation with event infrastructures embedded into mobile virtualized systems, with location- and context-transparency can be attained at moderate costs. The talk concludes with a review of our ongoing work on large-scale datacenter management.
+</p>
+
+
